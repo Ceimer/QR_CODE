@@ -1,0 +1,83 @@
+import type { Palette } from "../../shared/types";
+
+export const PALETTES: Palette[] = [
+  {
+    id: "oceano",
+    name: "Océano",
+    dots: "#0f766e",
+    background: "#ecfeff",
+    corners: "#0e7490",
+  },
+  {
+    id: "atardecer",
+    name: "Atardecer",
+    dots: "#c2410c",
+    background: "#fff7ed",
+    corners: "#9a3412",
+  },
+  {
+    id: "bosque",
+    name: "Bosque",
+    dots: "#166534",
+    background: "#f0fdf4",
+    corners: "#14532d",
+  },
+  {
+    id: "monocromo",
+    name: "Monocromo",
+    dots: "#111827",
+    background: "#ffffff",
+    corners: "#111827",
+  },
+  {
+    id: "lavanda",
+    name: "Lavanda",
+    dots: "#6d28d9",
+    background: "#f5f3ff",
+    corners: "#5b21b6",
+  },
+  {
+    id: "menta",
+    name: "Menta",
+    dots: "#047857",
+    background: "#ecfdf5",
+    corners: "#065f46",
+  },
+  {
+    id: "fuego",
+    name: "Fuego",
+    dots: "#b91c1c",
+    background: "#fef2f2",
+    corners: "#7f1d1d",
+  },
+  {
+    id: "cielo",
+    name: "Cielo",
+    dots: "#1d4ed8",
+    background: "#eff6ff",
+    corners: "#1e40af",
+  },
+  {
+    id: "amanecer",
+    name: "Amanecer",
+    dots: "#7c3aed",
+    background: "#faf5ff",
+    corners: "#6d28d9",
+    gradient: { from: "#7c3aed", to: "#db2777" },
+  },
+  {
+    id: "medianoche",
+    name: "Medianoche",
+    dots: "#e2e8f0",
+    background: "#0f172a",
+    corners: "#94a3b8",
+  },
+  {
+    id: "transparente",
+    name: "Trip Jouranl",
+    dots: "#f2e5dd",
+    background: "#ffffff",
+    corners: "#f2e5dd",
+    transparentBackground: true,
+  },
+];
